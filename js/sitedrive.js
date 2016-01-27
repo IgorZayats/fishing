@@ -48,18 +48,3 @@
  });
 
 
-$(document).ready(function() { 
- var folder = "gallery/vereshcitsya/";
-
-$.ajax({
-    url : folder,
-    success: function (data) {
-        alert (data);
-        $(data).find("a").attr("href", function (i, val) {
-            if( val.match(/\.jpg|\.png|\.gif/) ) { 
-                $("#gallery").append( "<img src='"+ folder + val +"'class = 'image-gallery'>" );
-            } 
-        });
-    }
-});
-});
