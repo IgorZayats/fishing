@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Рибалка у Львові</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/every_river.css" rel="stylesheet" type="text/css">
+<link href="css/sort-of-fish.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="images/favicon.jpg">
+</head>
+
+<body>
+  <!-- <div class="login-form">
+<fieldset>
+ <legend>Работа со временем</legend>
+ <form >
+<label for="Login"> Логін</label>
+<input type="text" name="Login" >
+</form>
+<form >
+<label for="Password"> Пароль</label>
+<input type="password" name="Password" >
+</form>
+<input type="submit" value="Відправити" >
+</fieldset>
+</div>-->
+<main class="body">
+ <header class="head">
+
+
+<span class="sitename" id="colorChange">Рибалка у Львові</span>
+
+</header>
+<nav>
+  <ul>
+<li class="navigate"><a href="index.html"><button>Головна</button></a></li>
+<li class="navigate "><a href="lake.html"><button>Озера</button></a></li>
+<li class="navigate "><a href="river.html"><button>Річки</button></a></li>
+<li class="navigate "><a href="weather.html"><button>Погода</button></a></li>
+<li class="navigate "><a href=""><button>Календар</button></a></li>
+<li class="navigate "><a href="gallery.html"><button>Галерея</button></a></li>
+<li class="navigate "><a href=""><button>Форум</button></a></li>
+<li class="navigate "><a href="About.html"><button>Про сайт</button></a></li>
+</ul>
+</nav>
+<div class="divlist">
+<ul>
+<li class="menu" >Про річку</li>
+<li id="gallery" class="menu">Галерея</li>
+</ul>
+</div>
+<div id="carousel" title="Покрутіть колесо миші">
+        <img id="pike1" class="cloudcarousel" src="gallery/vereshcitsya/pike1.jpg" width="230" height="150" alt="Fishing" />
+        <img id="pike2" class="cloudcarousel" src="gallery/vereshcitsya/pike2.jpg" width="230" height="150" alt="Fishing" />
+        <img id="pike3" class="cloudcarousel" src="gallery/vereshcitsya/pike3.jpg" width="230" height="150" alt="Fishing" />
+        <img id="pike4" class="cloudcarousel" src="gallery/vereshcitsya/pike4.jpg" width="230" height="150" alt="Fishing" />
+        <img id="som" class="cloudcarousel" src="gallery/vereshcitsya/som.jpg" width="230" height="150" alt="Fishing" />
+        <img id="som1" class="cloudcarousel" src="gallery/vereshcitsya/som1.jpg" width="230" height="150" alt="Fishing"/>
+        </div>    
+<footer class="foot">
+   <a class="mail" href="mailto:igor.zayatz@gmail.com">© 2015 Розроблено Igor Zayats</a></footer>
+ </main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/cloud-carousel.1.0.5.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/all_river_gallery.js"></script> 
+<script>
+        $(document).ready(function() {
+            $("#carousel").CloudCarousel({
+                yRadius: 185,
+                xRadius: 240,
+                xPos: 275,
+                yPos: 100,
+                speed: 0.15,
+                mouseWheel: true,
+                autoRotate: 'yes',
+			    autoRotateDelay: 2000,
+							   
+            });
+        });
+    </script>
+    </body>
+</html>

@@ -1,0 +1,192 @@
+@charset "utf-8";
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+}
+
+
+
+
+main {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width:920px;
+	margin:0 auto;
+	padding:0px;
+	border:3px solid #E5E5E5;
+	border-radius:18px;
+	border-collapse:collapse;
+    margin-top:10px;}
+
+html{
+	position:relative;
+	display:block;
+	margin:0 auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+	background-image:url(../images/1333648.jpg);
+	
+}
+.login-form{
+    background-image:url(../images/gray.png);
+    margin-left:85%;
+    color:white;
+    width:185px;
+    height:160px;
+    border-radius:10px;
+}
+.img{
+height:210px;
+width:100%;
+float:right;
+z-index:5;
+position:relative;
+border-radius:10px;
+border-collapse:collapse;
+}
+.head{
+width:915px;
+height:50px;
+z-index:1;}
+
+.navigate{display:inline-block;
+position:relative;
+margin-left:-5px;
+border-left:none;}
+ul{list-style:none;
+}
+nav{
+    margin-left:60px;}
+a button{color:#F5F5F5;
+width:100px;
+height:50px;
+background-color:gray;
+text-shadow:#2AC8E1;
+text-align:center;
+}
+.section{width:250px;
+height:250px;
+background-image:url(../images/gray.png);
+display:inline-block;
+border:5px solid lime;
+border-radius:30px;
+margin-left:130px;
+background-repeat:no-repeat;
+background-size:cover;
+float:left;
+margin-top:30px;
+}
+.section:hover{
+    border:5px solid cyan;
+background-repeat:no-repeat;
+background-size:cover;
+}
+.section:last-child{
+    
+    border:5px solid red;  
+    }
+    .section:last-child:hover{
+    border:5px solid cyan;
+     
+    }
+.foot{ 
+width:920px;
+height:80px;
+border-radius:15px;
+font-size:18px;
+text-align:center;
+margin-top:715px;}
+button:hover{color:black;
+width:100px;
+height:50px;
+background-color:white;
+text-shadow:#2AC8E1;
+text-align:center;
+border-color:black;
+}
+.sitename{font-size:40px;
+font-weight:bold;
+position:absolute;
+z-index:6;
+padding-left:30px;
+font-style:oblique;
+color:white;}
+.choose{text-align:center;
+position:absolute;
+float:right;
+padding-left:200px;
+font-size:24px;
+font-weight:bold;
+font-style:italic;
+color:white;
+}
+.button1{
+background-repeat:no-repeat;
+background-size:cover;
+width:250px;
+height:250px;
+margin-top:10px;
+}
+.button2{
+background-repeat:no-repeat;
+background-size:cover;
+width:250px;
+height:250px;
+margin-top:10px;}
+.body{-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image:url(../images/Black-Background-Hole-2-2560x1600-by-Freeman.jpg);
+    margin-top:200px;
+}
+.mail{display:block;
+text-align:center;
+padding-top:55px;
+margin-left:-30px;
+color:white;}
+.paper{float:left;
+margin-left:200px;}
+#slider{width:300px;
+height:300px;
+border:2px solid white;}
+#div1{
+    margin-top:30px;}
+.video-box{
+    display:inline-block;
+    width:300px;
+    height:300px;
+    border:2px solid white;
+    margin-left:30px;
+    margin-top:30px;}
+    #gallery{color:white;
+     width:300px;
+    height:300px;
+    border:2px solid white;}
+    .image-gallery{
+        color:white;
+     width:100px;
+    height:100px;
+    border:2px solid white;}
+        

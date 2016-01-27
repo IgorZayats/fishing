@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Мирна</title>
+<link href="css/sort-of-fish.css" rel="stylesheet" type="text/css">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="images/favicon.jpg">
+</head>
+
+<body >
+     <!-- <div class="login-form">
+<fieldset>
+ <legend>Работа со временем</legend>
+ <form >
+<label for="Login"> Логін</label>
+<input type="text" name="Login" >
+</form>
+<form >
+<label for="Password"> Пароль</label>
+<input type="password" name="Password" >
+</form>
+<input type="submit" value="Відправити" >
+</fieldset>
+</div>-->
+<main class="body">
+ <header class="head">
+
+
+<span class="sitename" id="colorChange">Рибалка у Львові</span>
+
+</header>
+<nav>
+  <ul>
+<li class="navigate"><a href="index.html"><button>Головна</button></a></li>
+<li class="navigate "><a href="lake.html"><button>Озера</button></a></li>
+<li class="navigate "><a href="river.html"><button>Річки</button></a></li>
+<li class="navigate "><a href="weather.html"><button>Погода</button></a></li>
+<li class="navigate "><a href=""><button>Календар</button></a></li>
+<li class="navigate "><a href="gallery.html"><button>Галерея</button></a></li>
+<li class="navigate "><a href=""><button>Форум</button></a></li>
+<li class="navigate "><a href="About.html"><button>Про сайт</button></a></li>
+</ul>
+</nav>
+
+<div class="divlist">
+<ul>
+<li class="menu">Щука
+<ul class="submenu">
+<li class="subhover" id="pike">Про рибу</li>
+<li class="subhover">1.2</li>
+<li class="subhover">1.3</li>
+<li class="subhover">1.4</li>
+<li class="subhover">1.5</li>
+</ul></li>
+<li class="menu" >Окунь
+<ul class="submenu">
+<li class="subhover" id="perch">Про рибу</li>
+<li class="subhover">2.2</li>
+<li class="subhover">2.3</li>
+<li class="subhover">2.4</li>
+<li class="subhover">2.5</li>
+</ul>
+<li class="menu" >Судак
+<ul class="submenu">
+<li class="subhover" id="sudak">Про рибу</li>
+<li class="subhover">3.2</li>
+<li class="subhover">3.3</li>
+<li class="subhover">3.4</li>
+<li class="subhover">3.5</li>
+</ul>
+</li>
+<li class="menu">Голавль
+<ul class="submenu">
+<li class="subhover" id="golavl">Про рибу</li>
+<li class="subhover">4.2</li>
+<li class="subhover">4.3</li>
+<li class="subhover">4.4</li>
+<li class="subhover">4.5</li></ul>
+</li>
+<li class="menu" >Налим
+<ul class="submenu">
+<li class="subhover" id="nalym">Про рибу</li>
+<li class="subhover">5.2</li>
+<li class="subhover">5.3</li>
+<li class="subhover">5.4</li>
+<li class="subhover">5.5</li></ul>
+</li>
+<li class="menu" >Жерех
+<ul class="submenu">
+<li class="subhover" id="zherekh">Про рибу</li>
+<li class="subhover">6.2</li>
+<li class="subhover">6.3</li>
+<li class="subhover">6.4</li>
+<li class="subhover">6.5</li></ul>
+</li>
+</li></ul>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#pike").click(function(){
+        $("#div1").load("content/pike.txt");
+    });
+	$("#perch").click(function(){
+        $("#div1").load("content/perch.txt");
+    });
+	$("#sudak").click(function(){
+        $("#div1").load("content/sudak.txt");
+    });
+	$("#golavl").click(function(){
+        $("#div1").load("content/golavl.txt");
+    });
+     $("#nalym").click(function(){
+        $("#div1").load("content/nalym.txt");
+    });
+	$("#zherekh").click(function(){
+        $("#div1").load("content/zherekh.txt");
+    });
+});
+</script>
+<div id="div1" class="div1"></div>
+<footer class="foot grass">
+   <a class="mail" href="mailto:igor.zayatz@gmail.com">© 2015 Розроблено Igor Zayats</a></footer>
+</main>
+</body>
+</html>

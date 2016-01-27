@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Мирна</title>
+<link href="css/sort-of-fish.css" rel="stylesheet" type="text/css">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="images/favicon.jpg">
+</head>
+
+<body>
+    
+  <!-- <div class="login-form">
+<fieldset>
+ <legend>Работа со временем</legend>
+ <form >
+<label for="Login"> Логін</label>
+<input type="text" name="Login" >
+</form>
+<form >
+<label for="Password"> Пароль</label>
+<input type="password" name="Password" >
+</form>
+<input type="submit" value="Відправити" >
+</fieldset>
+</div>-->
+<main class="body">
+ <header class="head">
+
+
+<span class="sitename" id="colorChange">Рибалка у Львові</span>
+
+</header>
+<nav>
+  <ul>
+<li class="navigate"><a href="index.html"><button>Головна</button></a></li>
+<li class="navigate "><a href="lake.html"><button>Озера</button></a></li>
+<li class="navigate "><a href="river.html"><button>Річки</button></a></li>
+<li class="navigate "><a href="weather.html"><button>Погода</button></a></li>
+<li class="navigate "><a href=""><button>Календар</button></a></li>
+<li class="navigate "><a href="gallery.html"><button>Галерея</button></a></li>
+<li class="navigate "><a href=""><button>Форум</button></a></li>
+<li class="navigate "><a href="About.html"><button>Про сайт</button></a></li>
+</ul>
+</nav>
+<div class="divlist">
+<ul>
+<li class="menu" >Сазан
+<ul class="submenu">
+<li class="subhover" id="sazan">Про рибу</li>
+<li class="subhover" id="sposobu-sazan">Способи ловлі</li>
+<li class="subhover" id="osnastka-sazan">Оснастки</li>
+<li class="subhover" id="video-sazan">Відео</li>
+</ul></li>
+<li class="menu">Карась
+<ul class="submenu">
+<li class="subhover" id="karas">Про рибу</li>
+<li class="subhover">Способи ловлі</li>
+<li class="subhover">2.3</li>
+<li class="subhover">2.4</li>
+<li class="subhover">2.5</li>
+</ul>
+<li class="menu">Плотва
+<ul class="submenu">
+<li class="subhover" id="plotva">Про рибу</li>
+<li class="subhover">Способи ловлі</li>
+<li class="subhover">3.3</li>
+<li class="subhover">3.4</li>
+<li class="subhover">3.5</li>
+</ul>
+</li>
+<li class="menu">Лин
+<ul class="submenu">
+<li class="subhover" id="lin">Про рибу</li>
+<li class="subhover">Способи ловлі</li>
+<li class="subhover">4.3</li>
+<li class="subhover">4.4</li>
+<li class="subhover">4.5</li></ul>
+</li>
+<li class="menu" id="krasnopirka">Краснопірка
+<ul class="submenu">
+<li class="subhover">Про рибу</li>
+<li class="subhover">Способи ловлі</li>
+<li class="subhover">5.3</li>
+<li class="subhover">5.4</li>
+<li class="subhover">5.5</li></ul>
+</li>
+<li class="menu" id="verhovodka">Верховодка
+<ul class="submenu">
+<li class="subhover">Про рибу</li>
+<li class="subhover">Способи ловлі</li>
+<li class="subhover">6.3</li>
+<li class="subhover">6.4</li>
+<li class="subhover">6.5</li></ul>
+</li>
+<li class="menu" id="tovstolobuk">Товстолобик
+<ul class="submenu">
+<li class="subhover">Про рибу</li>
+<li class="subhover">Способи ловлі</li>
+<li class="subhover">7.3</li>
+<li class="subhover">7.4</li>
+<li class="subhover">7.5</li></ul>
+</li>
+<li class="menu" id="lyashch">Лящ
+<ul class="submenu">
+<li class="subhover">Про рибу</li>
+<li class="subhover">Способи ловлі</li>
+<li class="subhover">8.3</li>
+<li class="subhover">8.4</li>
+<li class="subhover">8.5</li></ul>
+</li>
+</li></ul>
+</div> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#sazan").click(function(){
+        $("#div1").load("content/carp.txt");
+    });
+	$("#karas").click(function(){
+        $("#div1").load("content/karas.txt");
+    });
+	$("#plotva").click(function(){
+        $("#div1").load("content/plotva.txt");
+    });
+	$("#lin").click(function(){
+        $("#div1").load("content/lin.txt");
+    });
+     $("#krasnopirka").click(function(){
+        $("#div1").load("content/krasnopirka.txt");
+    });
+	$("#verhovodka").click(function(){
+        $("#div1").load("content/verhovodka.txt");
+    });
+	$("#tovstolobuk").click(function(){
+        $("#div1").load("content/tovstolobuk.txt");
+    });
+	$("#lyashch").click(function(){
+        $("#div1").load("content/lyashch.txt");
+    });
+    $("#sposobu-sazan").click(function(){
+        $("#div1").load("content/how-to-fish/karp-sposobu.txt");
+    });
+     $("#video-sazan").click(function(){
+        $("#div1").load("content/videolink/carp.txt");
+    });
+});
+</script>
+<div id="div1" class="div1"></div>
+
+<footer class="foot grass">
+   <a class="mail" href="mailto:igor.zayatz@gmail.com">© 2015 Розроблено Igor Zayats</a></footer>
+   </main>
+
+</body>
+</html>
