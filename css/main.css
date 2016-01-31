@@ -32,19 +32,18 @@ main {
 	border-radius:18px;
 	border-collapse:collapse;
     margin-top:10px;
-    min-height:100%;
     }
 
 html{
-     -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment:fixed;
 	background-image:url(../images/Black-Background-Hole-2-2560x1600-by-Freeman.jpg);
-	min-height:100%;
+	
 }
 .login-form{
     background-image:url(../images/gray.png);
@@ -75,13 +74,19 @@ border-left:none;}
 ul{list-style:none;
 }
 nav{
-    margin-left:22px;}
-a button{color:#F5F5F5;
+    margin-left:12px;
+    margin-top:10px;}
+.navigate a button{color:#F5F5F5;
 width:100px;
 height:50px;
-background-color:gray;
-text-shadow:#2AC8E1;
+background-image:url(../images/GraySquareButton.png);
+background-position:-2px -2px;
+background-repeat:no-repeat;
+background-size:100px 50px;
+border-radius:15px;
 text-align:center;
+border:3px solid #00BBF4;
+margin-left:2px;
 }
 .section{width:250px;
 height:250px;
@@ -115,13 +120,14 @@ border-radius:15px;
 font-size:18px;
 text-align:center;
 margin-top:715px;}
-button:hover{color:black;
+.navigate a button:hover{color:black;
 width:100px;
 height:50px;
 background-color:white;
 text-shadow:#2AC8E1;
 text-align:center;
-border-color:black;
+border:3px solid red;
+margin-left:2px;
 }
 .sitename{font-size:40px;
 font-weight:bold;
@@ -185,4 +191,5 @@ border:2px solid white;}
     margin-top:30px;}
  body {
      font-family: "Lobster", cursive;
-     color:#00BBF4;}
+     color:#00BBF4;
+     position:relative;}

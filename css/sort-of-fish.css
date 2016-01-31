@@ -2,7 +2,8 @@
 
 
 .divlist{float:left;
-margin-top:30px;}
+margin-top:30px;
+margin-left:15px;}
 li.menu ul.submenu{display:none;}
 li.menu:hover ul.submenu{display:block;}
 li.menu{z-index:5;
@@ -16,6 +17,7 @@ height:35px;
 font-weight:900;
 font-size:13px;
 font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+
 }
 .menu:hover{z-index:5;
 position:relative;
@@ -30,6 +32,7 @@ color:blue;
 font-weight:900;
 font-size:13px;
 font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+
 .subhover{
 	z-index:5;
 	position:relative;
@@ -66,7 +69,13 @@ font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", 
 .div1{
 color:black;
 float:left;
-width:700px;
+width:730px;
 height:700px;
 padding:5px;
 overflow-y:auto;}
+.gallery-image{display:inline-block;
+margin-left:5px;
+border-radius:10px;}
+.gallery-image:hover{border:3px solid red;
+width:224px;
+height:144px;border-radius:10px;}
