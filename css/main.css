@@ -20,7 +20,11 @@ time, mark, audio, video {
  background:transparent;
 }
 
-
+@media only screen and (max-width: 767px) {
+  html {
+    background-image:url(../images/Image00001.jpg) center center cover no-repeat fixed;
+    }
+}
 
 
 main {
